@@ -43,7 +43,7 @@ img{
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  background-image: url("../images/02-hero-bg.jpg");
+  background-image: url("02-hero-bg.jpg");
   background-size: cover;
   background-position: center;
   min-height: 28vh;
@@ -74,19 +74,19 @@ img{
 }
 #led-lights {
   grid-area: led-lights;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("02-portfolio-1.jpg");
 }
 #calculator {
   grid-area: calculator;
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("02-portfolio-2.jpg");
 }
 #pastelCarGame {
   grid-area: pastelcarGame;
-  background-image: url("../images/02-portfolio-3.jpg");
+  background-image: url("02-portfolio-3.jpg");
 }
 #surfingUSA {
   grid-area: surfingUSA;
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("02-portfolio-4.jpg");
 }
 .categoryGridArea {
   background-position: center;
