@@ -67,6 +67,7 @@ img{
   "led-lights calculator"
   "pastelcarGame surfingUSA"
   ;
+  margin-bottom: 25px;
 }
 #led-lights {
   grid-area: led-lights;
@@ -94,14 +95,16 @@ img{
   align-content: end;
 }
 .heading {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(255, 255, 255, 0.623);
   padding: 15px;
   height: 50px;
   color: white;
   font-size: 18px;
-  border-bottom: 5px solid #FF6200;
+  border-bottom: 5px solid #FF6200;}
 
-
+.heading a{
+  text-decoration: none;
+}
 
 
 
@@ -118,5 +121,19 @@ img{
 img{
   margin-left: 37.5%;
   margin-right: 50%;
+}
+#workGrid {
+  margin: 0px;
+  display: grid;
+  grid: template columns 1px;
+  grid-template-rows: 500px 500px 500px 500px;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "led-lights" 
+  "calculator"
+  "pastelcarGame" 
+  "surfingUSA"
+  ;
+  margin-bottom: 25px;
 }
 }
