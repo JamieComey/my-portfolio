@@ -64,7 +64,7 @@ img{
 #workGrid {
   margin: 0px;
   display: grid;
-  grid-template-rows: 500px 500px;
+  grid-template-rows: 525px 500px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
   "led-lights calculator"
@@ -76,6 +76,7 @@ img{
   grid-area: led-lights;
   background-image: url("02-portfolio-1.jpg");
 }
+
 #calculator {
   grid-area: calculator;
   background-image: url("02-portfolio-2.jpg");
@@ -116,17 +117,6 @@ img{
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 980px){
 img{
   margin-left: 37.5%;
@@ -136,7 +126,7 @@ img{
   margin: 0px;
   display: grid;
   grid: template columns 1px;
-  grid-template-rows: 500px 500px 500px 500px;
+  grid-template-rows: 525px 500px 500px 500px;
   grid-template-columns: 100%;
   grid-template-areas:
   "led-lights" 
