@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -58,6 +57,9 @@ img{
 #work-h2{
   margin-bottom: 25px;
 }
+#work-h2{
+  margin-bottom: 25px;
+}
 #workGrid {
   margin: 0px;
   display: grid;
@@ -104,6 +106,12 @@ img{
 
 .heading a{
   text-decoration: none;
+}
+#contactLinks{
+  display: block;
+  margin-left: 47%;
+  margin-right: 47%;
+  text-align: center;
 }
 
 
