@@ -64,11 +64,12 @@ img{
 #workGrid {
   margin: 0px;
   display: grid;
-  grid-template-rows: 525px 500px;
+  grid-template-rows: 500px 500px 500px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "led-lights calculator"
-  "pastelcarGame surfingUSA"
+  "led-lights led-lights"
+  "calculator pastelcarGame"
+  "surfingUSA runBuddy"
   ;
   margin-bottom: 25px;
 }
@@ -76,7 +77,6 @@ img{
   grid-area: led-lights;
   background-image: url("02-portfolio-1.jpg");
 }
-
 #calculator {
   grid-area: calculator;
   background-image: url("02-portfolio-2.jpg");
@@ -88,6 +88,10 @@ img{
 #surfingUSA {
   grid-area: surfingUSA;
   background-image: url("02-portfolio-4.jpg");
+}
+#runBuddy {
+  grid-area: runBuddy;
+  background-image: url("02-run-buddy.jpg");
 }
 .categoryGridArea {
   background-position: center;
@@ -126,13 +130,14 @@ img{
   margin: 0px;
   display: grid;
   grid: template columns 1px;
-  grid-template-rows: 525px 500px 500px 500px;
+  grid-template-rows: 500px 500px 500px 500px 500px;
   grid-template-columns: 100%;
   grid-template-areas:
   "led-lights" 
   "calculator"
   "pastelcarGame" 
   "surfingUSA"
+  "runBuddy"
   ;
   margin-bottom: 25px;
 }
